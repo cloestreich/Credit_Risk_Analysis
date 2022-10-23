@@ -48,7 +48,7 @@ The balanced accuracy score is 0.6241876870888075 as it is above in SMOTE.
 For the precision score, the precision is low for high-risk loans and is high for low-risk loans.
 The recall score is 0.60 for high-risk loans and 0.43 for low-risk loans.
 
-#Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
+# Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
 SMOTEENN algorithms will be used with an over and undersampling approach to determine if the results from the combination of approaches are better at predicting credit risk over the resampling algorithms attempted in the first deliverable.
 
 -SMOTEENN algorithm to predict credit risk
@@ -62,7 +62,7 @@ The balanced accuracy score is 0.5160196365189295
 For the precision score, the precision is low for high-risk loans and is high for low-risk loans.
 The recall score is 0.70 for high-risk loans and 0.58 for low-risk loans.
 
-#Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
+# Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 Two different ensemble classifiers: Balanced Random Forest Classifier & Easy Ensemble AdaBoost Classifier are used to predict credit risk.
 
 -Balanced Random Forest Classifier

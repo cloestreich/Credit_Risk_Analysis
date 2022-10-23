@@ -87,5 +87,5 @@ The balanced accuracy score is 0.925427358175101
 For the precision score, the precision is low for high-risk loans and is high for low-risk loans.
 The recall score is 0.91 for high-risk loans and 0.94 for low-risk loans.
 
-##Summary
+## Summary
 Balanced accuracy uses sensitivity and specificity to evaluate the performance of a classifier. The balanced accuracy is placed on a scale of 0 to 1. The closer to 1 the balanced accurracy is, the better the prediction of the model. For the credit card risk data set: all of the classifiers tested showed similar recall scores, and all had precision scores as low for high-risk loans and high for low-risk loans. The difference in these learning models occurs in the balanced accuracy score. The Easy Ensemble AdaBoost Classifier outperformed all off the other models significantly with a score of 0.925427358175101. Seeing as none of the other machine learning models had balanced accuracy scores above 0.7877672625306695, the Easy Ensemble AdaBoost Classifier is the best choice when analyzing and predicting credit card risk.

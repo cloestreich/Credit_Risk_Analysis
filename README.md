@@ -17,22 +17,31 @@ Three machine learning models, RandomOverSamples, SMOTE algorithms, and ClusterC
 
 -Random Oversampling
 ![image](https://user-images.githubusercontent.com/108380062/197397923-838530c1-4488-4221-a611-d704604caf28.png)
+
 The balanced accuracy score is 0.6515938052705158.
+
 ![image](https://user-images.githubusercontent.com/108380062/197397755-0bfb07c4-70b2-448b-889a-860cdc0edd00.png)
+
 For the precision score, the precision is low for high-risk loans and is high for low-risk loans.
 The recall score is 0.62 high risk loans and 0.68 for low risk loans.
 
 -SMOTE Oversampling
 ![image](https://user-images.githubusercontent.com/108380062/197398389-25709498-6bd8-4014-9184-f6b859a7cc06.png)
+
 The balanced accuracy score is 0.6241876870888075
+
 ![image](https://user-images.githubusercontent.com/108380062/197398487-7ce3d65f-aca0-4f25-aea0-1bea93ea1361.png)
+
 For the precision score, the precision is low for high-risk loans and is high for low-risk loans.
 The recall score is 0.59 for high-risk loans and 0.66 for low-risk loans.
 
 -Undersampling/Cluster Centroids
 ![image](https://user-images.githubusercontent.com/108380062/197398696-d898609a-e9e7-4e0a-bf3b-9ce4ee4109ca.png)
+
 The balanced accuracy score is 0.6241876870888075 as it is above in SMOTE.
+
 ![image](https://user-images.githubusercontent.com/108380062/197398786-0fa9441f-d815-4b02-adbd-deb7eed77a52.png)
+
 For the precision score, the precision is low for high-risk loans and is high for low-risk loans.
 The recall score is 0.60 for high-risk loans and 0.43 for low-risk loans.
 
@@ -41,8 +50,11 @@ SMOTEENN algorithms will be used with an over and undersampling approach to dete
 
 -SMOTEENN algorithm to predict credit risk
 ![image](https://user-images.githubusercontent.com/108380062/197399037-38e469f5-50e8-4e22-8619-77b15e86867f.png)
+
 The balanced accuracy score is 0.5160196365189295
+
 ![image](https://user-images.githubusercontent.com/108380062/197399127-1d078e29-65ab-4656-81eb-431f766686fe.png)
+
 For the precision score, the precision is low for high-risk loans and is high for low-risk loans.
 The recall score is 0.70 for high-risk loans and 0.58 for low-risk loans.
 
@@ -51,15 +63,21 @@ Two different ensemble classifiers: Balanced Random Forest Classifier & Easy Ens
 
 -Balanced Random Forest Classifier
 ![image](https://user-images.githubusercontent.com/108380062/197399378-d4b5003d-e847-451d-a16c-2374400a0661.png)
+
 The balanced accuracy score is 0.7877672625306695
+
 ![image](https://user-images.githubusercontent.com/108380062/197399437-c3e20fa2-0eb0-4c0d-8e40-4177a5ba7fca.png)
+
 For the precision score, the precision is low for high-risk loans and is high for low-risk loans.
 The recall score is 0.67 for high-risk loans and 0.91 for low-risk loans.
 
 -Easy Ensemble AdaBoost Classifier
 ![image](https://user-images.githubusercontent.com/108380062/197399527-60e6b961-1cde-4619-ab5b-434b0d85a092.png)
+
 The balanced accuracy score is 0.925427358175101
+
 ![image](https://user-images.githubusercontent.com/108380062/197399611-1047d38e-281f-4cfd-abd3-8494d96893d5.png)
+
 For the precision score, the precision is low for high-risk loans and is high for low-risk loans.
 The recall score is 0.91 for high-risk loans and 0.94 for low-risk loans.
 
